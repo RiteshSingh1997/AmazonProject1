@@ -1,0 +1,308 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 04 11:12:18 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>179 seconds (179490 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='project_Amazontest.Testcase9_addingproducttocart.addtocart()'><b>addtocart</b><br>Test class: project_Amazontest.Testcase9_addingproducttocart<br/>
+<a href="#Output-602748972" onClick='toggleBox("Output-602748972", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-602748972" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-602748972">
+Testcase is fail<br/>
+</div>
+</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	The method firstshirt() is undefined for the type Homepage
+
+	at project_Amazontest.Testcase9_addingproducttocart.addtocart(Testcase9_addingproducttocart.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace602748972", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace602748972'><pre>java.lang.Error: Unresolved compilation problem: 
+	The method firstshirt() is undefined for the type Homepage
+
+	at project_Amazontest.Testcase9_addingproducttocart.addtocart(Testcase9_addingproducttocart.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>project_Amazontest.Testcase9_addingproducttocart@740cae06</td></tr>
+<tr>
+<td title='project_Amazontest.Testcase3_login_with_invalid_cred.login_with_incorrect_credentials()'><b>login_with_incorrect_credentials</b><br>Test class: project_Amazontest.Testcase3_login_with_invalid_cred<br/>
+<a href="#Output-1449360639" onClick='toggleBox("Output-1449360639", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1449360639" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1449360639">
+Testcase is fail<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.70)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e407fe92dd47b2b344ebcda2355b2549, sendKeysToElement {value=[Ljava.lang.CharSequence;@4dba773d, id=f.BF05E15C7B65418D07D9CD98A9B4E8EA.d.EB412C2C33C5A4568F6354A17703EFEA.e.106}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59365}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\Ritesh.s\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59365/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (e407fe92dd47b2b344ebcda2355b2549)] -&gt; name: password]
+Session ID: e407fe92dd47b2b344ebcda2355b2549
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+	at Project1_Amazon.Loginpage.pwd(Loginpage.java:40)
+	at project_Amazontest.Testcase3_login_with_invalid_cred.login_with_incorrect_credentials(Testcase3_login_with_invalid_cred.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1449360639", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1449360639'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.70)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e407fe92dd47b2b344ebcda2355b2549, sendKeysToElement {value=[Ljava.lang.CharSequence;@4dba773d, id=f.BF05E15C7B65418D07D9CD98A9B4E8EA.d.EB412C2C33C5A4568F6354A17703EFEA.e.106}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59365}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\Ritesh.s\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59365/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (e407fe92dd47b2b344ebcda2355b2549)] -&gt; name: password]
+Session ID: e407fe92dd47b2b344ebcda2355b2549
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+	at Project1_Amazon.Loginpage.pwd(Loginpage.java:40)
+	at project_Amazontest.Testcase3_login_with_invalid_cred.login_with_incorrect_credentials(Testcase3_login_with_invalid_cred.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>2</td>
+<td>project_Amazontest.Testcase3_login_with_invalid_cred@2ddc9a9f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='project_Amazontest.Testcase4_edit_profile_information.Addnewaddress()'><b>Addnewaddress</b><br>Test class: project_Amazontest.Testcase4_edit_profile_information<br/>
+<a href="#Output-1928900108" onClick='toggleBox("Output-1928900108", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1928900108" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1928900108">
+Testcase is pass<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>project_Amazontest.Testcase4_edit_profile_information@2e385cce</td></tr>
+<tr>
+<td title='project_Amazontest.Testcase2_login_with_correct_credentials.login_with_correct_credentials()'><b>login_with_correct_credentials</b><br>Test class: project_Amazontest.Testcase2_login_with_correct_credentials<br/>
+<a href="#Output-1744273262" onClick='toggleBox("Output-1744273262", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1744273262" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1744273262">
+Testcase is pass<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>project_Amazontest.Testcase2_login_with_correct_credentials@2a7f1f10</td></tr>
+<tr>
+<td title='project_Amazontest.Testcase5_searchproduct_shoe.searching_shoe()'><b>searching_shoe</b><br>Test class: project_Amazontest.Testcase5_searchproduct_shoe<br/>
+<a href="#Output-1048128739" onClick='toggleBox("Output-1048128739", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1048128739" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1048128739">
+Testcase is pass<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>project_Amazontest.Testcase5_searchproduct_shoe@783a467b</td></tr>
+<tr>
+<td title='project_Amazontest.Testcase10_updatingitems_removingfromcart.new_user_register()'><b>new_user_register</b><br>Test class: project_Amazontest.Testcase10_updatingitems_removingfromcart<br/>
+<a href="#Output-968612320" onClick='toggleBox("Output-968612320", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-968612320" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-968612320">
+Testcase is pass<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>project_Amazontest.Testcase10_updatingitems_removingfromcart@298a5e20</td></tr>
+<tr>
+<td title='project_Amazontest.Testcase1_Registeramazon.new_user_register()'><b>new_user_register</b><br>Test class: project_Amazontest.Testcase1_Registeramazon<br/>
+<a href="#Output-786970485" onClick='toggleBox("Output-786970485", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-786970485" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-786970485">
+Testcase is pass<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>project_Amazontest.Testcase1_Registeramazon@46cdf8bd</td></tr>
+<tr>
+<td title='project_Amazontest.Testcase7_productdetailpage_displays_price_reviews_description.searching_shoe()'><b>searching_shoe</b><br>Test class: project_Amazontest.Testcase7_productdetailpage_displays_price_reviews_description<br/>
+<a href="#Output-2020935882" onClick='toggleBox("Output-2020935882", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2020935882" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2020935882">
+Testcase is pass<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>project_Amazontest.Testcase7_productdetailpage_displays_price_reviews_description@f0c8a99</td></tr>
+<tr>
+<td title='project_Amazontest.Testcase6_searching_with_filter_category_price.searchwithfilters()'><b>searchwithfilters</b><br>Test class: project_Amazontest.Testcase6_searching_with_filter_category_price<br/>
+<a href="#Output-545392109" onClick='toggleBox("Output-545392109", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-545392109" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-545392109">
+Testcase is pass<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>project_Amazontest.Testcase6_searching_with_filter_category_price@26d9b808</td></tr>
+</table><p>
+</body>
+</html>

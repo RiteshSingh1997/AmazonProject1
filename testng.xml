@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="project_Amazontest.Testcase5_searchproduct_shoe"/>
+      <class name="project_Amazontest.Testcase4_edit_profile_information"/>
+      <class name="project_Amazontest.Testcase3_login_with_invalid_cred"/>
+      <class name="project_Amazontest.Testcase10_updatingitems_removingfromcart"/>
+      <class name="project_Amazontest.Testcase2_login_with_correct_credentials"/>
+      <class name="project_Amazontest.Testcase1_Registeramazon"/>
+      <class name="project_Amazontest.Testcase7_productdetailpage_displays_price_reviews_description"/>
+      <class name="project_Amazontest.Testcase9_addingproducttocart"/>
+      <class name="project_Amazontest.Testcase6_searching_with_filter_category_price"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

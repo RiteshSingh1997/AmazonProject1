@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Testcase is pass]]>
+    </line>
+    <line>
+      <![CDATA[Testcase is pass]]>
+    </line>
+    <line>
+      <![CDATA[Testcase is pass]]>
+    </line>
+    <line>
+      <![CDATA[Testcase is fail]]>
+    </line>
+    <line>
+      <![CDATA[Testcase is pass]]>
+    </line>
+    <line>
+      <![CDATA[Testcase is pass]]>
+    </line>
+    <line>
+      <![CDATA[Testcase is pass]]>
+    </line>
+    <line>
+      <![CDATA[Testcase is pass]]>
+    </line>
+    <line>
+      <![CDATA[Testcase is pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-25T10:45:54 IST" name="Surefire suite" finished-at="2024-11-25T10:48:31 IST" duration-ms="157180">
+    <groups>
+    </groups>
+    <test started-at="2024-11-25T10:45:54 IST" name="Surefire test" finished-at="2024-11-25T10:48:31 IST" duration-ms="157180">
+      <class name="project_Amazontest.Testcase6_searching_with_filter_category_price">
+        <test-method is-config="true" signature="launch_amazon()[pri:0, instance:project_Amazontest.Testcase6_searching_with_filter_category_price@741a8937]" started-at="2024-11-25T10:47:23 IST" name="launch_amazon" finished-at="2024-11-25T10:47:28 IST" duration-ms="4684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_amazon -->
+        <test-method signature="searchwithfilters()[pri:0, instance:project_Amazontest.Testcase6_searching_with_filter_category_price@741a8937]" started-at="2024-11-25T10:47:28 IST" name="searchwithfilters" finished-at="2024-11-25T10:47:50 IST" duration-ms="22527" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchwithfilters -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:project_Amazontest.Testcase6_searching_with_filter_category_price@741a8937]" started-at="2024-11-25T10:47:51 IST" name="quit" finished-at="2024-11-25T10:47:52 IST" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- project_Amazontest.Testcase6_searching_with_filter_category_price -->
+      <class name="project_Amazontest.Testcase3_login_with_invalid_cred">
+        <test-method is-config="true" signature="launch_amazon()[pri:0, instance:project_Amazontest.Testcase3_login_with_invalid_cred@5ba3f27a]" started-at="2024-11-25T10:46:36 IST" name="launch_amazon" finished-at="2024-11-25T10:46:41 IST" duration-ms="5416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_amazon -->
+        <test-method signature="login_with_incorrect_credentials()[pri:0, instance:project_Amazontest.Testcase3_login_with_invalid_cred@5ba3f27a]" started-at="2024-11-25T10:46:41 IST" name="login_with_incorrect_credentials" finished-at="2024-11-25T10:46:43 IST" duration-ms="1421" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.63)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [32ba89e61b306696c6df7f7eaa86dfcf, sendKeysToElement {id=f.5B36394CA3F70D6882431D605DA1CC24.d.72F42465AEDC655D5939DD19FEFCC0A0.e.96, value=[Ljava.lang.CharSequence;@783efb48}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54139}, msedge: {msedgedriverVersion: 131.0.2903.63 (3cf4b3e782aa..., userDataDir: C:\Users\Ritesh.s\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54139/devtoo..., se:cdpVersion: 131.0.2903.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (32ba89e61b306696c6df7f7eaa86dfcf)] -> name: password]
+Session ID: 32ba89e61b306696c6df7f7eaa86dfcf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.63)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [32ba89e61b306696c6df7f7eaa86dfcf, sendKeysToElement {id=f.5B36394CA3F70D6882431D605DA1CC24.d.72F42465AEDC655D5939DD19FEFCC0A0.e.96, value=[Ljava.lang.CharSequence;@783efb48}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54139}, msedge: {msedgedriverVersion: 131.0.2903.63 (3cf4b3e782aa..., userDataDir: C:\Users\Ritesh.s\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54139/devtoo..., se:cdpVersion: 131.0.2903.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (32ba89e61b306696c6df7f7eaa86dfcf)] -> name: password]
+Session ID: 32ba89e61b306696c6df7f7eaa86dfcf
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy11.sendKeys(Unknown Source)
+at Project1_Amazon.Loginpage.pwd(Loginpage.java:40)
+at project_Amazontest.Testcase3_login_with_invalid_cred.login_with_incorrect_credentials(Testcase3_login_with_invalid_cred.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase is fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_with_incorrect_credentials -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:project_Amazontest.Testcase3_login_with_invalid_cred@5ba3f27a]" started-at="2024-11-25T10:46:43 IST" name="quit" finished-at="2024-11-25T10:46:45 IST" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- project_Amazontest.Testcase3_login_with_invalid_cred -->
+      <class name="project_Amazontest.Testcase2_login_with_correct_credentials">
+        <test-method is-config="true" signature="launch_amazon()[pri:0, instance:project_Amazontest.Testcase2_login_with_correct_credentials@21e360a]" started-at="2024-11-25T10:46:25 IST" name="launch_amazon" finished-at="2024-11-25T10:46:29 IST" duration-ms="3697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_amazon -->
+        <test-method signature="login_with_correct_credentials()[pri:0, instance:project_Amazontest.Testcase2_login_with_correct_credentials@21e360a]" started-at="2024-11-25T10:46:29 IST" name="login_with_correct_credentials" finished-at="2024-11-25T10:46:32 IST" duration-ms="2706" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_with_correct_credentials -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:project_Amazontest.Testcase2_login_with_correct_credentials@21e360a]" started-at="2024-11-25T10:46:34 IST" name="quit" finished-at="2024-11-25T10:46:36 IST" duration-ms="1685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- project_Amazontest.Testcase2_login_with_correct_credentials -->
+      <class name="project_Amazontest.Testcase10_updatingitems_removingfromcart">
+        <test-method is-config="true" signature="launch_amazon()[pri:0, instance:project_Amazontest.Testcase10_updatingitems_removingfromcart@32b260fa]" started-at="2024-11-25T10:45:54 IST" name="launch_amazon" finished-at="2024-11-25T10:46:00 IST" duration-ms="5775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_amazon -->
+        <test-method signature="new_user_register()[pri:0, instance:project_Amazontest.Testcase10_updatingitems_removingfromcart@32b260fa]" started-at="2024-11-25T10:46:00 IST" name="new_user_register" finished-at="2024-11-25T10:46:09 IST" duration-ms="9254" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- new_user_register -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:project_Amazontest.Testcase10_updatingitems_removingfromcart@32b260fa]" started-at="2024-11-25T10:46:10 IST" name="quit" finished-at="2024-11-25T10:46:16 IST" duration-ms="6110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- project_Amazontest.Testcase10_updatingitems_removingfromcart -->
+      <class name="project_Amazontest.Testcase5_searchproduct_shoe">
+        <test-method is-config="true" signature="launch_amazon()[pri:0, instance:project_Amazontest.Testcase5_searchproduct_shoe@74751b3]" started-at="2024-11-25T10:47:08 IST" name="launch_amazon" finished-at="2024-11-25T10:47:13 IST" duration-ms="4820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_amazon -->
+        <test-method signature="searching_shoe()[pri:0, instance:project_Amazontest.Testcase5_searchproduct_shoe@74751b3]" started-at="2024-11-25T10:47:13 IST" name="searching_shoe" finished-at="2024-11-25T10:47:21 IST" duration-ms="8373" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searching_shoe -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:project_Amazontest.Testcase5_searchproduct_shoe@74751b3]" started-at="2024-11-25T10:47:21 IST" name="quit" finished-at="2024-11-25T10:47:23 IST" duration-ms="1690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- project_Amazontest.Testcase5_searchproduct_shoe -->
+      <class name="project_Amazontest.Testcase4_edit_profile_information">
+        <test-method is-config="true" signature="launch_amazon()[pri:0, instance:project_Amazontest.Testcase4_edit_profile_information@58d75e99]" started-at="2024-11-25T10:46:45 IST" name="launch_amazon" finished-at="2024-11-25T10:46:49 IST" duration-ms="4523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_amazon -->
+        <test-method signature="Addnewaddress()[pri:0, instance:project_Amazontest.Testcase4_edit_profile_information@58d75e99]" started-at="2024-11-25T10:46:49 IST" name="Addnewaddress" finished-at="2024-11-25T10:47:06 IST" duration-ms="16863" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Addnewaddress -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:project_Amazontest.Testcase4_edit_profile_information@58d75e99]" started-at="2024-11-25T10:47:06 IST" name="quit" finished-at="2024-11-25T10:47:08 IST" duration-ms="1889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- project_Amazontest.Testcase4_edit_profile_information -->
+      <class name="project_Amazontest.Testcase9_addingproducttocart">
+        <test-method is-config="true" signature="launch_amazon()[pri:0, instance:project_Amazontest.Testcase9_addingproducttocart@52af26ee]" started-at="2024-11-25T10:48:06 IST" name="launch_amazon" finished-at="2024-11-25T10:48:11 IST" duration-ms="4310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_amazon -->
+        <test-method signature="addtocart()[pri:0, instance:project_Amazontest.Testcase9_addingproducttocart@52af26ee]" started-at="2024-11-25T10:48:11 IST" name="addtocart" finished-at="2024-11-25T10:48:29 IST" duration-ms="18396" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:project_Amazontest.Testcase9_addingproducttocart@52af26ee]" started-at="2024-11-25T10:48:29 IST" name="quit" finished-at="2024-11-25T10:48:31 IST" duration-ms="1998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- project_Amazontest.Testcase9_addingproducttocart -->
+      <class name="project_Amazontest.Testcase7_productdetailpage_displays_price_reviews_description">
+        <test-method is-config="true" signature="launch_amazon()[pri:0, instance:project_Amazontest.Testcase7_productdetailpage_displays_price_reviews_description@306e95ec]" started-at="2024-11-25T10:47:52 IST" name="launch_amazon" finished-at="2024-11-25T10:47:57 IST" duration-ms="4905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_amazon -->
+        <test-method signature="searching_shoe()[pri:0, instance:project_Amazontest.Testcase7_productdetailpage_displays_price_reviews_description@306e95ec]" started-at="2024-11-25T10:47:57 IST" name="searching_shoe" finished-at="2024-11-25T10:48:04 IST" duration-ms="6889" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searching_shoe -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:project_Amazontest.Testcase7_productdetailpage_displays_price_reviews_description@306e95ec]" started-at="2024-11-25T10:48:05 IST" name="quit" finished-at="2024-11-25T10:48:06 IST" duration-ms="1659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- project_Amazontest.Testcase7_productdetailpage_displays_price_reviews_description -->
+      <class name="project_Amazontest.Testcase1_Registeramazon">
+        <test-method is-config="true" signature="launch_amazon()[pri:0, instance:project_Amazontest.Testcase1_Registeramazon@7bd4937b]" started-at="2024-11-25T10:46:16 IST" name="launch_amazon" finished-at="2024-11-25T10:46:20 IST" duration-ms="4167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_amazon -->
+        <test-method signature="new_user_register()[pri:0, instance:project_Amazontest.Testcase1_Registeramazon@7bd4937b]" started-at="2024-11-25T10:46:20 IST" name="new_user_register" finished-at="2024-11-25T10:46:22 IST" duration-ms="2345" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- new_user_register -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:project_Amazontest.Testcase1_Registeramazon@7bd4937b]" started-at="2024-11-25T10:46:23 IST" name="quit" finished-at="2024-11-25T10:46:25 IST" duration-ms="1694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- project_Amazontest.Testcase1_Registeramazon -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
